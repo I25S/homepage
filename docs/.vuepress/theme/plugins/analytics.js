@@ -81,7 +81,7 @@ export const AnalyticsPlugin = {
 
           fb = fbq;
 
-          fb("init", "1707211522748212");
+          fb("init", "547901262456012");
 
           // Google Analytics
           window.ga =
@@ -91,7 +91,7 @@ export const AnalyticsPlugin = {
             };
           window.ga.l = +new Date();
 
-          window.ga("create", "UA-124576760-1", "auto");
+          window.ga("create", "UA-124576760-3", "auto");
 
           initialized = true;
 
